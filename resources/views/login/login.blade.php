@@ -22,7 +22,7 @@
             <form action="{{route('auth')}}" method="post">
                 @csrf
                 <h2>Login </h2>
-                <div class="box-input"> <input type="text" placeholder="Email" name="email"> <label><i class="fas fa-user"></i></label> </div>
+                <div class="box-input"> <input type="text" placeholder="Email" name="email"> <label><i class="fas fa-envelope"></i></label> </div>
                 <div class="box-input"> <input type="password" placeholder="Password" name="password"> <label><i class="fas fa-lock"></i></label> </div> <button>Login</button>
                 <p>Create an Account ? <a href="{{route('register')}}">Sign Up</a></p>
             </form>

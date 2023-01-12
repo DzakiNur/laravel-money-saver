@@ -32,7 +32,7 @@
                 @csrf
                 <h2>Register </h2>
                 <div class="box-input"> <input type="text" placeholder="Username" name="name"><label><i class="fas fa-user"></i></label> </div>
-                <div class="box-input"> <input type="text" placeholder="Email" name="email"><label><i class="fas fa-user"></i></label> </div>
+                <div class="box-input"> <input type="text" placeholder="Email" name="email"><label><i class="fas fa-envelope"></i></label> </div>
                 <div class="box-input"> <input type="password" placeholder="Password" name="password"> <label><i class="fas fa-lock"></i></label> </div> <button type="submit">Register</button>
                 <p>Already have an Account ? <a href="{{route('login')}}">Sign In</a></p>
             </form>
